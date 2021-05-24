@@ -36,3 +36,5 @@
 - https://github.com/kprinssu/UX501VW-hackintosh
 - https://github.com/OpenIntelWireless
 - https://github.com/hieplpvip/AsusSMC
+
+All kexts are downloaded from their releases pages. For licenses, see LICENSE.* files.
