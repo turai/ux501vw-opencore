@@ -25,6 +25,7 @@
 - Battery status (sometimes it doesn't see it's charging but I don't care)
 - Bluetooth
 - FN keys (but keyboard backlight is dead on mine, HW issue)
+- Webcam
 
 ### Not working
 - PCIe card reader, just use an USB thing
