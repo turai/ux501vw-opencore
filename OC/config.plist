@@ -7,28 +7,20 @@
 		<key>Add</key>
 		<array>
 			<dict>
+				<key>Enabled</key>
+				<true/>
+				<key>Comment</key>
+				<string>Snsv UX501VW</string>
+				<key>Path</key>
+				<string>SSDT-Snsv.aml</string>
+			</dict>
+			<dict>
 				<key>Comment</key>
 				<string>SSDT-PNLF</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
 				<string>SSDT-PNLF.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-XOSI</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-XOSI.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-EC</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-EC.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -39,52 +31,12 @@
 				<string>SSDT-PLUG.aml</string>
 			</dict>
 			<dict>
-				<key>Comment</key>
-				<string>Disable DGPU</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-DGPU.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Elan GPIO</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-ETPD.aml</string>
-			</dict>
-			<dict>
-				<key>Enabled</key>
-				<true/>
-				<key>Comment</key>
-				<string>HDMI</string>
-				<key>Path</key>
-				<string>SSDT-HDMI.aml</string>
-			</dict>
-			<dict>
 				<key>Enabled</key>
 				<false/>
 				<key>Comment</key>
 				<string>Reset RHUB</string>
 				<key>Path</key>
 				<string>SSDT-RHUB-Reset.aml</string>
-			</dict>
-			<dict>
-				<key>Enabled</key>
-				<true/>
-				<key>Comment</key>
-				<string>GPRW</string>
-				<key>Path</key>
-				<string>SSDT-GPRW.aml</string>
-			</dict>
-			<dict>
-				<key>Enabled</key>
-				<true/>
-				<key>Comment</key>
-				<string>AsusSMC</string>
-				<key>Path</key>
-				<string>SSDT-AsusSMC.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
