@@ -1,7 +1,7 @@
 # OpenCore template for ASUS UX501VW
 
 ### I didn't make this repository public, so you can just copy paste everything. It's a guide to show what you need to boot and have most devices working. I don't care if you can't dual boot or your house burns down or whatever.
-### This repo should also help GL552VW users, as the hardware almost the same, just with ROG branding.
+### This repo should also help GL552VW users, as the hardware is almost the same, just with ROG branding.
 #### I plan to update this as new versions of kexts get released. If you need help, feel free to @me on [Discord](https://discord.gg/u8V7N5C) or [Reddit](https://www.reddit.com/r/hackintosh/). Same username, no private messages.
 
 ### Specs
@@ -25,6 +25,7 @@
 - Battery status (sometimes it doesn't see it's charging but I don't care)
 - Bluetooth
 - FN keys (but keyboard backlight is dead on mine, HW issue)
+- Webcam
 
 ### Not working
 - PCIe card reader, just use an USB thing
