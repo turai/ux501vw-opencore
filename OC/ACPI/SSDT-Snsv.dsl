@@ -4,17 +4,18 @@
 // XOSI: https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/decompiled/SSDT-XOSI.dsl
 
 DefinitionBlock("", "SSDT", 1, "TURAI", "SNSV", 0x00000001) {
-    External (_SB_.PCI0.PEG0.PEGP._DSM, MethodObj)
-    External (_SB_.PCI0.PEG0.PEGP._PS3, MethodObj)
-    External (_SB_.PCI0.LPCB, DeviceObj)
+    External(_SB_.PCI0.PEG0.PEGP._DSM, MethodObj)
+    External(_SB_.PCI0.PEG0.PEGP._PS3, MethodObj)
+    External(_SB_.PCI0.LPCB, DeviceObj)
     External(_SB_.PCI0.LPCB.EC0.WRAM, MethodObj)
     External(_SB_.PCI0.LPCB.EC0, DeviceObj)
     External(_SB_.ATKD, DeviceObj)
     External(_SB_.ATKD.IANE, MethodObj)
     External(ATKP, IntObj)
     External(XPRW, MethodObj)
-    External (_SB_.PCI0.GPI0, DeviceObj)
-    External (_SB_.PCI0.I2C1.ETPD, DeviceObj)
+    External(_SB_.PCI0.GPI0, DeviceObj)
+    External(_SB_.PCI0.I2C1.ETPD, DeviceObj)
+    External(_SB_.PCI0.RP02.PXSX._OFF, MethodObj) // Card reader
 
     Method (XOSI, 1, NotSerialized) {
         Local0 = Package (0x11) {
@@ -59,6 +60,12 @@ DefinitionBlock("", "SSDT", 1, "TURAI", "SNSV", 0x00000001) {
                     })
                     \_SB.PCI0.PEG0.PEGP._PS3()
                 }
+                
+                //if(CondRefOf(\_SB.PCI0.RP02.PXSX._DSM)) {
+                //    \_SB.PCI0.RP02.PXSX._DSM(ToUUID("1730e71d-e5dd-4a34-be57-4d76b6a2fe37"), Zero, One, Buffer(0x01) {
+                //        One
+                //    })
+                //}
             }
         }
         Method(_STA, 0, NotSerialized) {
