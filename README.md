@@ -3,7 +3,7 @@
 ### I didn't make this repository public, so you can just copy paste everything. It's a sample to show what you need to boot and have most devices working. I don't care if you can't dual boot or your house burns down or whatever.
 ### This repo should also help GL552VW users, as the hardware is almost the same, just with ROG branding.
 #### I plan to update this as new versions of kexts get released. If you need help, feel free to @me on [Discord](https://discord.gg/u8V7N5C) or [Reddit](https://www.reddit.com/r/hackintosh/). Same username, no private messages.
-#### Current OS: macOS 12.0 Beta6
+#### Current OS: macOS 12.0 21A5534d
 
 ### Specs
 **CPU** [6700HQ](https://ark.intel.com/content/www/us/en/ark/products/88967/intel-core-i7-6700hq-processor-6m-cache-up-to-3-50-ghz.html)  

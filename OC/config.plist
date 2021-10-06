@@ -1178,7 +1178,7 @@
 		<key>Generic</key>
 		<dict>
 			<key>AdviseFeatures</key>
-			<false/>
+			<true/>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
@@ -1275,6 +1275,8 @@
 				<true/>
 				<key>Path</key>
 				<string>OpenCanopy.efi</string>
+				<key>Comment</key>
+				<string/>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -1283,6 +1285,8 @@
 				<true/>
 				<key>Path</key>
 				<string>OpenHfsPlus.efi</string>
+				<key>Comment</key>
+				<string/>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -1291,6 +1295,8 @@
 				<true/>
 				<key>Path</key>
 				<string>OpenRuntime.efi</string>
+				<key>Comment</key>
+				<string/>
 			</dict>
 		</array>
 		<key>Input</key>
