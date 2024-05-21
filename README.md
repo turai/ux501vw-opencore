@@ -2,8 +2,7 @@
 
 ### I didn't make this repository public, so you can just copy paste everything. It's a sample to show what you need to boot and have most devices working. I don't care if you can't dual boot or your house burns down or whatever.
 ### This repo should also help GL552VW users, as the hardware is almost the same, just with ROG branding.
-#### I plan to update this as new versions of kexts get released. If you need help, feel free to @me on [Discord](https://discord.gg/u8V7N5C) or [Reddit](https://www.reddit.com/r/hackintosh/). Same username, no private messages.
-#### Current OS: macOS 12.3
+#### I plan to update this as new versions of kexts get released.
 
 ### Specs
 **CPU** [6700HQ](https://ark.intel.com/content/www/us/en/ark/products/88967/intel-core-i7-6700hq-processor-6m-cache-up-to-3-50-ghz.html)  
@@ -12,7 +11,7 @@
 **AUDIO** ALC668  
 **WLAN** Intel 7265  
 **TPD** Elan 1000  
-**SSD** Samsung 970 Evo Plus
+**SSD** WD SN770 1TB
 
 ### What works
 - Boot
@@ -23,7 +22,7 @@
 - Touchpad
 - USB2/3 (Type-C/TB is disabled - no device to map with)
 - Audio
-- Battery status (sometimes it doesn't see it's charging but I don't care)
+- Battery status
 - Bluetooth
 - Wifi
 - FN keys (but keyboard backlight is dead on mine, HW issue)
@@ -33,6 +32,7 @@
 - PCIe card reader, just use an USB thing
 - 960M, disabled with a hotpatch
 - iMessage, I wouldn't use it anyway
+- AirportItlwm with Mikrotik access points - use older itlwm for now
 
 #### Attributions
 - https://github.com/acidanthera
@@ -41,5 +41,4 @@
 - https://github.com/OpenIntelWireless
 - https://github.com/hieplpvip/AsusSMC
 
-I recommend you build AirportItlwm yourself because the debug build is slow. Just clone the repository, make sure Xcode is installed, then run:
-`xcodebuild -target "AirportItlwm-Monterey" -configuration Release`
+Both the latest AirportItlwm and Itlwm is kind of broken, sees all the SSIDs, but doesn't want to connect to anything, router says invalid rsn group cipher. A detailed bug report will be submitted later, until then I'm using an older version of itlwm, I believe it's 2.2.
